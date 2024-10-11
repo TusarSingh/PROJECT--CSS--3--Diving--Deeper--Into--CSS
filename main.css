@@ -64,12 +64,9 @@ body {
   color: #0e4f1f;
 }
 
-.main-nav__item a:hover {
-  color: white;
-}
-
+.main-nav__item a:hover,
 .main-nav__item a:active {
-  color: pink;
+  color: white;
 }
 
 .main-nav__item a::after {
@@ -81,8 +78,3 @@ p::first-letter {
   color: red;
   font-size: 20px;
 }
-
-/*
-Pseudo Element Target => Specifies Part of Element
-Pseudo Class Target => Specifies State of Element
-*/
