@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin: 0;
 }
 
@@ -20,8 +20,12 @@ body {
 
 #product-overview h1 {
   color: white;
-  font-family: 'Anton', sans-serif;
+  font-family: "Anton", sans-serif;
 }
+
+/* h1 {
+    font-family: sans-serif;
+} */
 
 .main-header {
   width: 100%;
@@ -44,7 +48,7 @@ body {
 .main-nav {
   display: inline-block;
   text-align: right;
-  width: calc(100% - 124px);
+  width: calc(100% - 74px);
   vertical-align: middle;
 }
 
@@ -56,4 +60,10 @@ body {
 
 .main-nav__item {
   display: inline-block;
+  margin: 0 16px;
+}
+
+.main-nav__item a {
+  text-decoration: none;
+  color: #0e4f1f;
 }
