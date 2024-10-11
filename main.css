@@ -69,5 +69,20 @@ body {
 }
 
 .main-nav__item a:active {
-  color: red;
+  color: pink;
 }
+
+.main-nav__item a::after {
+  content: '(Link)';
+  color: darkorange;
+}
+
+p::first-letter {
+  color: red;
+  font-size: 20px;
+}
+
+/*
+Pseudo Element Target => Specifies Part of Element
+Pseudo Class Target => Specifies State of Element
+*/
