@@ -2,7 +2,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   margin: 0px;
 }
-
+/* 
 #product-overview {
   background: #ff1b68;
   padding-top: 20px;
@@ -17,6 +17,14 @@ body {
   margin-bottom: 30px;
   margin-left: 10px;
 }
+*/
+
+#product-overview {
+  background: #ff1b68;
+  padding: 20px;
+  border: 10px solid black;
+  margin: 30px;
+}
 
 .section-title {
   color: #2ddf5c;
@@ -26,7 +34,3 @@ body {
   color: white;
   font-family: 'Anton', sans-serif;
 }
-
-/* body default margin 8 px
-  when two element margin collapsing than bigger margin is win
-*/
