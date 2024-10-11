@@ -1,5 +1,6 @@
 body {
   font-family: 'Montserrat', sans-serif;
+  margin: 0px;
 }
 
 #product-overview {
@@ -25,3 +26,7 @@ body {
   color: white;
   font-family: 'Anton', sans-serif;
 }
+
+/* body default margin 8 px
+  when two element margin collapsing than bigger margin is win
+*/
